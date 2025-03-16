@@ -16,11 +16,10 @@ This project implements **Portfolio Optimization** using Python, extracting fina
 - **Visualization**: Generates charts for portfolio weights and performance.
 
 ## 📂 File Structure
-│── 📄 lab3.py # Main script for portfolio optimization 
-│── 📄 databa-creation.ipynb # Initializes and populates the SQLite database 
-│── 📄 requirements.txt # Required Python packages 
-│── 📄 README.md # Documentation (this file) 
-├── Nifty50.db # SQLite database with stock prices 
+- **Data Extraction**: Fetches historical stock prices from a SQLite database.  
+- **Data Preprocessing**: Cleans and structures price data for analysis.  
+- **Portfolio Optimization**: Computes optimal asset allocation using risk-return analysis.  
+- **Visualization**: Generates charts for portfolio weights and performance.  
 
 
 
