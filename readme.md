@@ -1,8 +1,24 @@
-# Jan 2025, Python Labs by Kannan Singaravelu
 
-Note: `Python Labs` are designed to be a hands-on learning experience and are not meant to replace learning Python from the basics. These labs require a basic understanding of Python programming. If you are new to Python, please refer to the Python primers for foundational knowledge. Please note that the tools and approaches used in the labs may differ from the primers, as the labs are more practical and hands-on.
+# 📈 Portfolio Optimization and efficient frontier - Lab 3
+## Jan 2025, Python Labs from CQF by Kannan Singaravelu
 
-The labs are intended to be run in a virtual environment using Python 3.10. We will be using `uv` to create and manage the virtual environment. `UV` is an extremely fast Python package and project manager, written in Rust. For more information, visit `https://docs.astral.sh/uv`.  Follow the steps below to set up the environment, activate it, and install the required libraries.
+
+This project implements **Portfolio Optimization** using Python, extracting financial data from a SQLite database and applying optimization techniques to build an efficient portfolio.
+
+## 🚀 Features
+
+- **Data Extraction**: Fetches historical stock prices from a SQLite database.
+- **Data Preprocessing**: Cleans and structures price data for analysis.
+- **Portfolio Optimization**: Computes optimal asset allocation using risk-return analysis.
+- **Visualization**: Generates charts for portfolio weights and performance.
+
+## 📂 File Structure
+│── 📄 lab3.py # Main script for portfolio optimization 
+│── 📄 databa-creation.ipynb # Initializes and populates the SQLite database 
+│── 📄 requirements.txt # Required Python packages 
+│── 📄 README.md # Documentation (this file) 
+├── Nifty50.db # SQLite database with stock prices 
+
 
 
 ## Steps to set up the environment and install the required libraries
