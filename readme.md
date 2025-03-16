@@ -5,6 +5,9 @@
 
 This project implements **Portfolio Optimization** using Python, extracting financial data from a SQLite database and applying optimization techniques to build an efficient portfolio.
 
+![Notebook](https://armanddevacc.github.io/Portfolio-efficient-frontier-Lab3/lab3.html)
+
+
 ## 🚀 Features
 
 - **Data Extraction**: Fetches historical stock prices from a SQLite database.
@@ -14,6 +17,10 @@ This project implements **Portfolio Optimization** using Python, extracting fina
 - **Portfolio Optimization**: Computes optimal asset allocation using risk-return analysis.
 
 - **Visualization**: Generates charts for portfolio weights and performance.
+![Efficient Frontier](efficient-frontier.png)
+
+![Efficient Frontier 2](efficient-frontier-2.png)
+
 
 ## 📂 File Structure
 - **Data Extraction**: Fetches historical stock prices from a SQLite database.  
